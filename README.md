@@ -42,4 +42,22 @@ To checkout typescript version simply use this command `tsc -v` in your terminal
 
 I have created a separate branch for code examples, you can find out the codes in that branch.
 ***
+### Types in typescript
+- number
+- string
+- boolean
+- null
+- undefined
+- void
+- object
+- array
+- tuples
+- any
+- never
+- unknown <br/>
+And so on ... <br/>
+### Typescript syntax
+let variableName: type = value; <br/>
+Example code : `let greetings: string = "Hi sarvesh";`
+***
 
