@@ -56,8 +56,19 @@ I have created a separate branch for code examples, you can find out the codes i
 - never
 - unknown <br/>
 And so on ... <br/>
+### typescript situations
+- A function accepts 2 numbers
+- A function returns a string
 ### Typescript syntax
 let variableName: type = value; <br/>
 Example code : `let greetings: string = "Hi sarvesh";`
 ***
+### number, boolean in typescript
+
+Example code : `let age: number = 22; let userLoggedIn: boolean = false;` <br/>
+
+### Type inference:
+ Once you set a value of a variable, you don't need to mention the type. Because here is typescript work smart, and find out What type is used on that variable. So the best practice, is always use like this `let age = 22;`. you can always define the variable type as your wish, but that is not a good practice. There is some special cases, that we want to mention. What type is used in that variable. We can see it further.
+ ***
+
 
