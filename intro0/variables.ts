@@ -7,5 +7,15 @@ console.log(age);
 
 console.log(greetings);
 
+let villan: string;
+
+function getVillan() {
+  return "prakash raj";
+}
+
+villan = getVillan();
+
+console.log(villan);
+
 //temporary fixing for squiggling error
 export {};
