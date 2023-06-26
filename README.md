@@ -35,10 +35,10 @@ If all looks good you will see like this. <br/>
 
 ![versioncheck](https://user-images.githubusercontent.com/107741632/229807935-89699a43-ab68-4274-8f9c-56b74b64446c.jpg) <br/>
 
-For global installation : <br/>
+For global installation: <br/>
 `npm install -g typescript` <br/>
 
-To checkout typescript version simply use this command `tsc -v` in your terminal. <br/>
+To checkout the typescript version simply use this command `tsc -v` in your terminal. <br/>
 
 I have created a separate branch for code examples, you can find out the codes in that branch.
 ***
@@ -68,7 +68,17 @@ Example code : `let greetings: string = "Hi sarvesh";`
 Example code : `let age: number = 22; let userLoggedIn: boolean = false;` <br/>
 
 ### Type inference:
- Once you set a value of a variable, you don't need to mention the type. Because here is typescript work smart, and find out What type is used on that variable. So the best practice, is always use like this `let age = 22;`. you can always define the variable type as your wish, but that is not a good practice. There is some special cases, that we want to mention. What type is used in that variable. We can see it further.
+ Once you set a value of a variable, you don't need to mention the type. Because here is typescript work smart, and find out What type is used on that variable. So the best practice is always using like this `let age = 22;`. you can always define the variable type as your wish, but that is not a good practice. There are some special cases, that we want to mention. What type is used in that variable? We can see it further.
  ***
 
+### any in typescript:
+ When you declaring a variable with out data type, TypeScript infer as any data type. See the below example.
+ 
+ ![Before - without data type](https://github.com/sarveshshreekumaran/typescript/assets/107741632/a128e297-4cd2-4016-8537-fbc3c9fd2a6f)
 
+TypeScript documentation says don't use any data type, beacuse any isn't type-checked. So it accept any data type (ex: string, boolean, number,. etc) in that variable, it may cause a problem. Better use noImplicityAny compiler flag, it will report error for the implied any data type variable declartion. We can see noImplicityAny compiler flag more details in future.<br/>
+
+So that the below example is recommended, See we defined the data type as string. But after we assigning the boolean value, Here the TypeScript throw a msg, hey! the variable type is string, you can't assing a boolean. 
+
+![After - with data type](https://github.com/sarveshshreekumaran/typescript/assets/107741632/5a17d313-d44d-4d03-a50e-ba21c9766d84)
+***
