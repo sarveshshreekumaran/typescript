@@ -1,6 +1,7 @@
 # Typescript
  freeCodeCamp.org TypeScript – Full Tutorial by Hiteshchoudhary
 ***
+## Intro 
 ### What is typescript?
 Typescript is a superset of javascript. It allows to write javascript in a much precise manner. Typescript is all about TypeSafety.
 
@@ -82,3 +83,7 @@ So that the below example is recommended, See we defined the data type as string
 
 ![After - with data type](https://github.com/sarveshshreekumaran/typescript/assets/107741632/5a17d313-d44d-4d03-a50e-ba21c9766d84)
 ***
+## Basics
+### functions in typescript (part-1):
+ When declaring a variable with out data type, it will infer data type what value given to that variable. But in function both parameter and return statement, if we don't mention the data type. It will infer as any data type it will be more serious problem. So when ever creating a function, best practice is always mention their data type.
+ 
