@@ -86,4 +86,7 @@ So that the below example is recommended, See we defined the data type as string
 ## Basics
 ### functions in typescript (part-1):
  When declaring a variable with out data type, it will infer data type what value given to that variable. But in function both parameter and return statement, if we don't mention the data type. It will infer as any data type it will be more serious problem. So when ever creating a function, best practice is always mention their data type.
- 
+
+### A better way to write functions using typescript (part-2):
+ In typescript you can determine the return value data type in a function. For example, when a function returning a value like string type, then you can determine the return value data type as string. For more refer code examples in typescriptcodes branch.
+***
